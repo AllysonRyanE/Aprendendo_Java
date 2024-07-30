@@ -1,3 +1,5 @@
+package Aprendendo_Java.APS_MATH_SEQ;
+
 import java.util.Scanner;
 
 public class Potentiation {
