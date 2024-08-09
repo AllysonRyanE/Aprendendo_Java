@@ -10,7 +10,7 @@ public class OddCounter {
         int i = n1;
         while(i<=n2){
             if (i%2 != 0){
-                System.out.println(i);
+                System.out.println("É impar: "+ i);
             }
             i++;
             }
