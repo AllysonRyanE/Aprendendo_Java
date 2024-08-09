@@ -1,6 +1,6 @@
 import java.util.Scanner;
 public class ConditionalCalculator{
-  public static void main(String [] args) {
+  public static void main(String[] args) {
     Scanner reader = new Scanner(System.in);
     System.out.println("Digite o primeiro número: ");
     double n1 = reader.nextDouble();
