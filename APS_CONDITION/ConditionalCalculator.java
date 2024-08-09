@@ -20,6 +20,6 @@ public class ConditionalCalculator{
         result = n1+n2;
         System.out.println("A soma entre os números é "+result);
     }
-  reader.close();
+    reader.close();
   }
 }
