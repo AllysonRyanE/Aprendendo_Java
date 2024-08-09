@@ -15,5 +15,6 @@ public class FirstIsBigger {
         else {
             System.out.println("ERRO");
         }
+        reader.close();
     }
 }
