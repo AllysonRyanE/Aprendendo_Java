@@ -1,6 +1,6 @@
 import java.util.Scanner;
 public class Calculator {
-    public static void main(String args[]) {
+    public static void main(String [] args) {
         Scanner reader = new Scanner(System.in);
         System.out.println("Digite 1 para soma\nDigite 2 para subtração\nDigite 3 para multiplicação\nDigite 4 para divisão");
         int operator = reader.nextInt();
