@@ -16,4 +16,5 @@ public class BiggerOrEqual {
             System.out.println("Números iguais.");
         }
         }
+        reader.close();
     }
