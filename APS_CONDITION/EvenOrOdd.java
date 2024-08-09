@@ -10,5 +10,6 @@ public class EvenOrOdd {
         else{
             System.out.println("O número é impar!");
         }
+        reader.close();
     }
 }
