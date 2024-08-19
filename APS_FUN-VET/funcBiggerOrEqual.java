@@ -1,6 +1,6 @@
 import java.util.Scanner;
-public class FuncBiggerOrEqual{
-    public static String bigger(double n1, double n2){
+public class funcBiggerOrEqual{
+    public static String funcBiggerOrEqual(double n1, double n2){
         String result = "";
        if (n1>n2){
             result = "O "+ n1 + " é o maior número";
@@ -30,7 +30,7 @@ public class FuncBiggerOrEqual{
                 System.out.println("Número inválido, digite um número maior que 0.");
             }
         } while (n2 <= 0);
-        String result = bigger(n1, n2);
+        String result = funcBiggerOrEqual(n1, n2);
         System.out.println(result);
         reader.close();
     }
